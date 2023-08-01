@@ -1,0 +1,36 @@
+.item {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.item-caption {
+  position: absolute;
+  bottom: 20px;
+
+  width: 80%;
+}
+.ligtbox-container {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.ligtbox-item {
+  width: 60%;
+  height: 600px;
+  background-image: url(../images/portfolio-1.jpg);
+  background-size: 100% 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
